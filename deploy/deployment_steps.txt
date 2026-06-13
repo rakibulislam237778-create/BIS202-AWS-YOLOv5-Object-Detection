@@ -1,0 +1,19 @@
+Deployment Steps
+
+1. Create an Amazon S3 bucket named bis202-yolo-rakib-240365.
+2. Create folders inside the bucket: input, output, and results.
+3. Upload the sample image zidane.jpg into the input folder.
+4. Launch an Amazon EC2 t3.micro instance in us-east-1.
+5. Connect to the EC2 instance using SSH.
+6. Install Python 3, pip, and required dependencies.
+7. Clone the YOLOv5 repository from GitHub.
+8. Install YOLOv5 requirements using requirements.txt.
+9. Configure AWS CLI on the EC2 instance.
+10. Download the image from S3 input folder to EC2.
+11. Run YOLOv5 detection using python3 detect.py --source zidane.jpg.
+12. Upload the processed output image to the S3 output folder.
+13. Create AWS Lambda function named yolo-lambda using Python 3.10.
+14. Create API Gateway named image-object-api.
+15. Configure GET /test route and integrate it with Lambda.
+16. Test API Gateway using curl command.
+17. Configure S3 event notification to trigger Lambda when a new .jpg image is uploaded.

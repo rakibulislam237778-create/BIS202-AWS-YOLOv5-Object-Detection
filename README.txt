@@ -25,5 +25,8 @@ https://github.com/ultralytics/yolov5/tree/master/data/images
 Video Demonstration:
 https://youtu.be/5uqqHaC30CM
 
+GitHub Repository:
+https://github.com/rakibulislam237778-create/BIS202-AWS-YOLOv5-Object-Detection
+
 Author:
 Md Rakibul Islam

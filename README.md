@@ -2,10 +2,10 @@
 
 ## Student Information
 
-Name: Md Rakibul Islam
-Student ID: 240365
-Unit: BIS202 – Cloud Computing
-Assessment: Assessment 2
+Name: Md Rakibul Islam  
+Student ID: 240365  
+Unit: BIS202 – Cloud Computing  
+Assessment: Assessment 2  
 
 ## Project Description
 
@@ -15,10 +15,10 @@ The system uses Amazon S3 for storing input and output images, Amazon EC2 for ru
 
 ## AWS Services Used
 
-* Amazon S3
-* Amazon EC2
-* AWS Lambda
-* Amazon API Gateway
+- Amazon S3
+- Amazon EC2
+- AWS Lambda
+- Amazon API Gateway
 
 ## Bucket Name
 
@@ -44,6 +44,24 @@ https://github.com/ultralytics/yolov5/tree/master/data/images
 ## Video Demonstration
 
 https://youtu.be/5uqqHaC30CM
+
+## Repository Structure
+
+```text
+code/
+  lambda_function.py
+  commands_used.txt
+
+deploy/
+  deployment_steps.txt
+
+images/
+  Project screenshots and architecture diagram
+
+README.txt
+README.md
+Video_Link.txt
+```
 
 ## Future Improvement
 

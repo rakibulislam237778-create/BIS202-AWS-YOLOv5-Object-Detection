@@ -1,0 +1,8 @@
+YouTube Video Link:
+https://youtu.be/5uqqHaC30CM
+
+GitHub Repository:
+https://github.com/rakibulislam237778-create/BIS202-AWS-YOLOv5-Object-Detection
+
+Live API URL:
+https://pqpqad3tvd.execute-api.us-east-1.amazonaws.com/test

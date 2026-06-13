@@ -1,0 +1,13 @@
+git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt
+
+python3 detect.py --source data/images/zidane.jpg
+
+aws s3 cp s3://bis202-yolo-rakib-240365/input/zidane.jpg .
+
+python3 detect.py --source zidane.jpg
+
+aws s3 cp runs/detect/exp4 s3://bis202-yolo-rakib-240365/output/ --recursive
+
+curl https://pqpqad3tvd.execute-api.us-east-1.amazonaws.com/test
